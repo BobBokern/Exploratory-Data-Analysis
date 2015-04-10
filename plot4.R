@@ -41,11 +41,7 @@ axis(1, c(0,firstHalfIndex,secondHalfIndex), c("Thu","Fri","Sat"))
 legend("topright", lwd=1,bty = "n",legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),col=c("black","red","blue"))
 
 
-legend("topright", 
-       bty = "n",
-       col = c("black", "red", "blue"),
-       c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
-       lwd = 1)
+legend("topright", bty = "n", col = c("black", "red", "blue"), c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lwd = 1)
 
 plot(TimeGlobalReactivePower[,"Global_reactive_power"],type='l',xaxt = "n",xlab="",ylab="Global_reactive_power")
 axis(1, c(0,firstHalfIndex,secondHalfIndex), c("Thu","Fri","Sat"))
